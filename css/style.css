@@ -108,7 +108,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -150,10 +150,6 @@ body {
     .info-block {
         flex-direction: column;
         min-height: auto;
-    }
-    
-    .container {
-        width: 100%;
     }
 
     .image-container {
