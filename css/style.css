@@ -108,7 +108,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 70%;
     max-width: 100%;
 }
 
@@ -143,11 +143,19 @@ body {
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
     .info-block {
         flex-direction: column;
         min-height: auto;
     }
     
+    .container {
+        width: 100%;
+    }
+
     .image-container {
         height: 200px;
     }
