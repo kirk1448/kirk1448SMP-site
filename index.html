@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационные блоки</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Подключаем Markdown-парсер (используем marked.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            background-color: #161616;
+        }
+        p {
+            font-family: "Hind", sans-serif;
+            color: #888888;
+            font-size: 1em;
+            font-weight: 500;
+            width: 70%;
+        }
+        h2 {
+            font-size: 1.2em;
+        }
+        hr {
+            border: solid;
+            border-color: #1E1E1E;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Кнопка/текст для открытия модального окна -->
+    <header class="page-header">
+        <div class="header-content">
+            <span class="modal-opener">📖 Справка и Правила</span>
+        </div>
+    </header>
+
+    <!-- Модальное окно -->
+    <div id="markdown-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="markdown-content" class="markdown-body"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="info-block">
+            <div class="image-container">
+                <img src="images/1.png" alt="Описание изображения 1">
+            </div>
+            <div class="text-container">
+                <h2>Еклизия Де Вайоленс (Церковь Насилия)</h2>
+                <p>Глава lloufish_</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="info-block">
+            <div class="image-container">
+                <img src="images/2.png" alt="Описание изображения 2">
+            </div>
+            <div class="text-container">
+                <h2>Приднестровье</h2>
+                <p>Глава Bl1tz</p>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="info-block">
+            <div class="image-container">
+                <img src="images/3.png" alt="Описание изображения 2">
+            </div>
+            <div class="text-container">
+                <h2>Татарский Орден Фуфаек (ТОФ)</h2>
+                <p>Глава Stalkerush</p>
+                <p>Татарский Орден Фуфаек возник для защиты прав Татар и Фуфаек на Территории Киркланда от диктаторства Приднестровья и продолжает свое существование до сих пор.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="info-block">
+            <div class="image-container">
+                <img src="images/4.png" alt="Описание изображения 2">
+            </div>
+            <div class="text-container">
+                <h2>Ханство Персидское</h2>
+                <p>Глава MrSaddamHussein</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
