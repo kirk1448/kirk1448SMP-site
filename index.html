@@ -37,16 +37,22 @@
 
     <!-- Кнопка/текст для открытия модального окна -->
     <header class="page-header">
-        <div class="header-content">
-            <span class="modal-opener">📖 Справка и Правила</span>
-        </div>
+        <span class="modal-opener" data-md="about">📖 Справка и Правила</span>
+        <span class="modal-opener" data-md="cit">📦 Кастомные предметы</span>
     </header>
 
     <!-- Модальное окно -->
-    <div id="markdown-modal" class="modal">
+    <div id="modal-about" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <div id="markdown-content" class="markdown-body"></div>
+            <div id="about-content" class="markdown-body"></div>
+        </div>
+    </div>
+
+    <div id="modal-cit" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="cit-content" class="markdown-body"></div>
         </div>
     </div>
 
